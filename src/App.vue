@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <h1>Ебань с формами и валидацией</h1>
+    <hr />
+    <companySettings />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
+// import todoList from "./components/todoList.vue"; // импорт + прописываем в компонентах!
+// import anyForm from "./components/anyForm.vue"; // импорт + прописываем в компонентах!
+import companySettings from "./components/companySettings.vue"; // импорт + прописываем в компонентах!
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    // todoList,
+    // anyForm,
+    companySettings,
   },
 };
 </script>

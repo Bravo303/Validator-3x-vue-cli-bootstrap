@@ -1,0 +1,11 @@
+<template>
+  <div>
+    <ul>
+      <li>Залупа-1</li>
+      <li>Залупа-2</li>
+      <li>Залупа-3</li>
+      <li>Залупа-4</li>
+      <li>Залупа-5</li>
+    </ul>
+  </div>
+</template>
